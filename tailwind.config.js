@@ -7,8 +7,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "light-pattern": "url('/src/Img/light.png')",
-        "dark-pattern": "url('/src/Img/dark.jpg')",
+        "light-pattern": "url('/src/Img/light.webp')",
+        "dark-pattern": "url('/src/Img/dark.webp')",
       },
       fontFamily: {
         Bree: "Bree Serif",

@@ -9,7 +9,7 @@ import { IoMail, IoRocket } from "react-icons/io5";
 import { ImEye } from "react-icons/im";
 import { BsFillArrowUpSquareFill } from "react-icons/bs";
 import deved from "./Img/dev-ed-wave.png";
-import foodoo from "./Img/foodoo.png";
+import foodoo from "./Img/foodoo.webp";
 import web2 from "./Img/web2.png";
 import web3 from "./Img/web3.png";
 import web4 from "./Img/web4.png";
@@ -275,7 +275,11 @@ function App() {
               </div>
             </div>
             <div className="flex flex-col md:flex-row gap-2 justify-start shadow-stone-900 dark:text-gray-50 shadow-2xl rounded-xl">
-              <img src={pig} className="rounded-l-lg  md:w-1/2 w-1/1" />
+              <img
+                src={pig}
+                alt="pig game website"
+                className="rounded-l-lg  md:w-1/2 w-1/1"
+              />
               <div className="flex flex-col justify-between">
                 <div className="p-3 text-xl leading-9">
                   <h3 className=" text-5xl font-medium py-5 ">Pig Game</h3>
@@ -304,7 +308,11 @@ function App() {
               </div>
             </div>
             <div className="flex flex-col md:flex-row gap-2 justify-start shadow-stone-900 dark:text-gray-50 shadow-2xl rounded-xl">
-              <img src={web6} className="rounded-l-lg  md:w-1/2 w-1/1" />
+              <img
+                src={web6}
+                alt="foodoo website"
+                className="rounded-l-lg  md:w-1/2 w-1/1"
+              />
               <div className="flex flex-col justify-between">
                 <div className="p-3 text-xl leading-9">
                   <h3 className="text-gray-100 text-5xl font-medium py-5 ">
