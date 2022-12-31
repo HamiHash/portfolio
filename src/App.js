@@ -13,7 +13,7 @@ import foodoo from "./Img/foodoo.png";
 import web2 from "./Img/web2.png";
 import web3 from "./Img/web3.png";
 import web4 from "./Img/web4.png";
-import web5 from "./Img/web5.png";
+import pig from "./Img/pig.png";
 import web6 from "./Img/web6.png";
 import foodooLogo from "./Img/foodoo-logo.png";
 import { Link } from "react-scroll";
@@ -37,7 +37,7 @@ function App() {
 
   return (
     <div className={darkMode ? "dark" : ""}>
-      <main className="transition-all duration-700 bg-light-pattern bg-cover bg-fixed px-10 md:px-20 lg:px-40 dark:bg-dark-pattern ">
+      <main className="transition-all duration-700 bg-light-pattern bg-cover bg-fixed px-10 md:px-20 lg:px-40 xl:px-60 dark:bg-dark-pattern ">
         <section id="top" className=" min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
             <h1 className="text-2xl font-burtons">developed by</h1>
@@ -275,29 +275,27 @@ function App() {
               </div>
             </div>
             <div className="flex flex-col md:flex-row gap-2 justify-start shadow-stone-900 dark:text-gray-50 shadow-2xl rounded-xl">
-              <img src={web5} className="rounded-l-lg  md:w-1/2 w-1/1" />
+              <img src={pig} className="rounded-l-lg  md:w-1/2 w-1/1" />
               <div className="flex flex-col justify-between">
                 <div className="p-3 text-xl leading-9">
-                  <h3 className="text-gray-100 text-5xl font-medium py-5 ">
-                    Osub
-                  </h3>
-                  {/* <img className="w-2/5 p-3" src={foodooLogo} /> */}
-                  <p>This is a landing page for a fictional ai-company.</p>
-                  <p>the website is build with React.</p>
+                  <h3 className=" text-5xl font-medium py-5 ">Pig Game</h3>
+                  <p>Simple 2-player dice game</p>
                   <p>
-                    styled with css modules and made responsive with the help of
-                    media queries.
+                    Each turn, a player repeatedly rolls a die until either a 1
+                    is rolled or the player decides to "hold". The first player
+                    to score 100 or more points wins.
                   </p>
+                  <p>Build with javascript.</p>
                 </div>
                 <div className="flex gap-3 justify-center p-5 text-1xl">
                   <a
-                    href="#"
+                    href="https://pig-dicegame.vercel.app/"
                     className="flex items-center gap-2 ring-1 ring-gray-900  rounded-md p-1"
                   >
                     live <ImEye className="text-2xl" />
                   </a>
                   <a
-                    href="#"
+                    href="https://github.com/HamiHash/Pig-dice-game/tree/main"
                     className="flex items-center gap-2 ring-1 ring-gray-900  rounded-md p-1"
                   >
                     Github <FaGithub />
