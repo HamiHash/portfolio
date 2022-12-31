@@ -18,6 +18,10 @@ module.exports = {
         xs: "200px",
         ...defaultTheme.screens,
       },
+      lineHeight: {
+        "extra-loose": "2.5",
+        12: "3rem",
+      },
     },
   },
   plugins: [],
