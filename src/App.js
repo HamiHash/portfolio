@@ -9,11 +9,10 @@ import { ImEye } from "react-icons/im";
 import { BsFillArrowUpSquareFill } from "react-icons/bs";
 import deved from "./Img/dev-ed-wave.png";
 import foodoo from "./Img/foodoo.webp";
-import web2 from "./Img/web2.png";
-import web3 from "./Img/web3.png";
+import guess from "./Img/guess.png";
+import mapty from "./Img/mapty.png";
 import bankist from "./Img/bankist.png";
 import pig from "./Img/pig.png";
-import web6 from "./Img/web6.png";
 import foodooLogo from "./Img/foodoo-logo.png";
 
 function App() {
@@ -182,18 +181,20 @@ function App() {
               </div>
             </div>
             <div className="flex flex-col md:flex-row gap-2 justify-start shadow-stone-900 dark:text-gray-50 shadow-2xl rounded-xl">
-              <img src={web2} className="rounded-l-lg  md:w-1/2 w-1/1" />
+              <img src={mapty} className="rounded-l-lg  md:w-1/2 w-1/1" />
               <div className="flex flex-col justify-between">
                 <div className="p-3 text-xl leading-9">
                   <h3 className="text-gray-100 text-5xl font-medium py-5 ">
-                    Osub
+                    Mapty
                   </h3>
                   {/* <img className="w-2/5 p-3" src={foodooLogo} /> */}
-                  <p>This is a landing page for a fictional ai-company.</p>
-                  <p>the website is build with React.</p>
                   <p>
-                    styled with css modules and made responsive with the help of
-                    media queries.
+                    Simple app for saving your running and cycling activities
+                  </p>
+                  <p>Build with javascript.</p>
+                  <p>
+                    This project is one of the Learning projects of The Complete
+                    JavaScript course by Jonas Schmedtmann.
                   </p>
                 </div>
                 <div className="flex gap-3 justify-center p-5 text-1xl">
@@ -212,37 +213,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col md:flex-row gap-2 justify-start shadow-stone-900 dark:text-gray-50 shadow-2xl rounded-xl">
-              <img src={web3} className="rounded-l-lg  md:w-1/2 w-1/1" />
-              <div className="flex flex-col justify-between">
-                <div className="p-3 text-xl leading-9">
-                  <h3 className="text-gray-100 text-5xl font-medium py-5 ">
-                    Osub
-                  </h3>
-                  {/* <img className="w-2/5 p-3" src={foodooLogo} /> */}
-                  <p>This is a landing page for a fictional ai-company.</p>
-                  <p>the website is build with React.</p>
-                  <p>
-                    styled with css modules and made responsive with the help of
-                    media queries.
-                  </p>
-                </div>
-                <div className="flex gap-3 justify-center p-5 text-1xl">
-                  <a
-                    href="#"
-                    className="flex items-center gap-2 ring-1 ring-gray-900  rounded-md p-1"
-                  >
-                    live <ImEye className="text-2xl" />
-                  </a>
-                  <a
-                    href="#"
-                    className="flex items-center gap-2 ring-1 ring-gray-900  rounded-md p-1"
-                  >
-                    Github <FaGithub />
-                  </a>
-                </div>
-              </div>
-            </div>
+
             <div className="flex flex-col md:flex-row gap-2 justify-start shadow-stone-900 dark:text-gray-50 shadow-2xl rounded-xl">
               <img src={bankist} className="rounded-l-lg  md:w-1/2 w-1/1" />
               <div className="flex flex-col justify-between">
@@ -253,8 +224,8 @@ function App() {
                     css and javascript.
                   </p>
                   <p>
-                    This project is one of the Learning projects of The Complete
-                    JavaScript course by Jonas Schmedtmann.
+                    One of the Learning projects of The Complete JavaScript
+                    course by Jonas Schmedtmann.
                   </p>
                 </div>
                 <div className="flex gap-3 justify-center p-5 text-1xl">
@@ -313,22 +284,21 @@ function App() {
             </div>
             <div className="flex flex-col md:flex-row gap-2 justify-start shadow-stone-900 dark:text-gray-50 shadow-2xl rounded-xl">
               <img
-                src={web6}
+                src={guess}
                 alt="foodoo website"
                 className="rounded-l-lg  md:w-1/2 w-1/1"
               />
               <div className="flex flex-col justify-between">
                 <div className="p-3 text-xl leading-9">
                   <h3 className="text-gray-100 text-5xl font-medium py-5 ">
-                    Osub
+                    Guess my number
                   </h3>
                   {/* <img className="w-2/5 p-3" src={foodooLogo} /> */}
-                  <p>This is a landing page for a fictional ai-company.</p>
-                  <p>the website is build with React.</p>
                   <p>
-                    styled with css modules and made responsive with the help of
-                    media queries.
+                    In this game one should pick a number between 1 and 20 and
+                    use the hint to guess the correct number.
                   </p>
+                  <p>Build with javascript.</p>
                 </div>
                 <div className="flex gap-3 justify-center p-5 text-1xl">
                   <a
@@ -367,7 +337,7 @@ function App() {
               <a
                 target="_blank"
                 href="mailto:hami.hash@icloud.com"
-                className="flex flex-col items-center gap-1 p-7  shadow-2xl ring-1 ring-white rounded-2xl w-1/3 md:p-15  md:w-5/6"
+                className="truncate flex flex-col items-center gap-1 p-7  shadow-2xl ring-1 ring-white rounded-2xl w-1/3 md:p-15  md:w-5/6"
               >
                 <IoMail className=" text-5xl" />
                 <div>Mail</div>
