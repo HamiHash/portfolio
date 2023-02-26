@@ -1,7 +1,6 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
+import { Link } from "react-scroll";
 import emailjs from "@emailjs/browser";
-
-import { useState } from "react";
 import { MdLightMode, MdDarkMode } from "react-icons/md";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { SiWhatsapp } from "react-icons/si";
@@ -12,11 +11,10 @@ import deved from "./Img/dev-ed-wave.png";
 import foodoo from "./Img/foodoo.webp";
 import web2 from "./Img/web2.png";
 import web3 from "./Img/web3.png";
-import web4 from "./Img/web4.png";
+import bankist from "./Img/bankist.png";
 import pig from "./Img/pig.png";
 import web6 from "./Img/web6.png";
 import foodooLogo from "./Img/foodoo-logo.png";
-import { Link } from "react-scroll";
 
 function App() {
   const form = useRef();
@@ -167,12 +165,14 @@ function App() {
                 </div>
                 <div className="flex gap-3 justify-center p-5 text-1xl">
                   <a
+                    target="_blank"
                     href="#"
                     className="flex items-center gap-2 ring-1 ring-gray-900  rounded-md p-1"
                   >
                     live <ImEye className="text-2xl" />
                   </a>
                   <a
+                    target="_blank"
                     href="#"
                     className="flex items-center gap-2 ring-1 ring-gray-900  rounded-md p-1"
                   >
@@ -244,29 +244,30 @@ function App() {
               </div>
             </div>
             <div className="flex flex-col md:flex-row gap-2 justify-start shadow-stone-900 dark:text-gray-50 shadow-2xl rounded-xl">
-              <img src={web4} className="rounded-l-lg  md:w-1/2 w-1/1" />
+              <img src={bankist} className="rounded-l-lg  md:w-1/2 w-1/1" />
               <div className="flex flex-col justify-between">
                 <div className="p-3 text-xl leading-9">
-                  <h3 className="text-gray-100 text-5xl font-medium py-5 ">
-                    Osub
-                  </h3>
-                  {/* <img className="w-2/5 p-3" src={foodooLogo} /> */}
-                  <p>This is a landing page for a fictional ai-company.</p>
-                  <p>the website is build with React.</p>
+                  <h3 className="text-5xl font-medium py-5 ">Bankist</h3>
                   <p>
-                    styled with css modules and made responsive with the help of
-                    media queries.
+                    This is a landing page for a fictional bank. build with html
+                    css and javascript.
+                  </p>
+                  <p>
+                    This project is one of the Learning projects of The Complete
+                    JavaScript course by Jonas Schmedtmann.
                   </p>
                 </div>
                 <div className="flex gap-3 justify-center p-5 text-1xl">
                   <a
-                    href="#"
+                    target="_blank"
+                    href="https://glittering-tapioca-16a89c.netlify.app/"
                     className="flex items-center gap-2 ring-1 ring-gray-900  rounded-md p-1"
                   >
                     live <ImEye className="text-2xl" />
                   </a>
                   <a
-                    href="#"
+                    target="_blank"
+                    href="https://github.com/HamiHash/bankist"
                     className="flex items-center gap-2 ring-1 ring-gray-900  rounded-md p-1"
                   >
                     Github <FaGithub />
@@ -277,6 +278,7 @@ function App() {
             <div className="flex flex-col md:flex-row gap-2 justify-start shadow-stone-900 dark:text-gray-50 shadow-2xl rounded-xl">
               <img
                 src={pig}
+                target="_blank"
                 alt="pig game website"
                 className="rounded-l-lg  md:w-1/2 w-1/1"
               />
@@ -293,12 +295,14 @@ function App() {
                 </div>
                 <div className="flex gap-3 justify-center p-5 text-1xl">
                   <a
+                    target="_blank"
                     href="https://pig-dicegame.vercel.app/"
                     className="flex items-center gap-2 ring-1 ring-gray-900  rounded-md p-1"
                   >
                     live <ImEye className="text-2xl" />
                   </a>
                   <a
+                    target="_blank"
                     href="https://github.com/HamiHash/Pig-dice-game/tree/main"
                     className="flex items-center gap-2 ring-1 ring-gray-900  rounded-md p-1"
                   >
