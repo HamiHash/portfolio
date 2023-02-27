@@ -223,9 +223,7 @@ function App() {
               />
               <div className="flex flex-col justify-between">
                 <div className="p-3 text-xl leading-9">
-                  <h3 className="text-gray-100 text-5xl font-medium py-5 ">
-                    Mapty
-                  </h3>
+                  <h3 className=" text-5xl font-medium py-5 ">Mapty</h3>
                   {/* <img className="w-2/5 p-3" src={foodooLogo} /> */}
                   <p>
                     Simple app for saving your running and cycling activities
@@ -342,7 +340,7 @@ function App() {
               />
               <div className="flex flex-col justify-between">
                 <div className="p-3 text-xl leading-9">
-                  <h3 className="text-gray-100 text-5xl font-medium py-5 ">
+                  <h3 className="text-5xl font-medium py-5 ">
                     Guess my number
                   </h3>
                   {/* <img className="w-2/5 p-3" src={foodooLogo} /> */}
