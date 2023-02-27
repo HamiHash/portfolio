@@ -200,7 +200,7 @@ function App() {
                     target="_blank"
                     rel="noreferrer"
                     href="https://foodooapp.netlify.app/"
-                    className="flex items-center gap-2 ring-1 ring-gray-900  rounded-md p-1"
+                    className="flex items-center gap-2 ring-1 dark:ring-emerald-50 ring-gray-900  rounded-sm p-1.5"
                   >
                     live <ImEye className="text-2xl" />
                   </a>
@@ -208,7 +208,7 @@ function App() {
                     target="_blank"
                     rel="noreferrer"
                     href="https://github.com/HamiHash/foodoo"
-                    className="flex items-center gap-2 ring-1 ring-gray-900  rounded-md p-1"
+                    className="flex items-center gap-2 ring-1 dark:ring-emerald-50 ring-gray-900  rounded-sm p-1.5"
                   >
                     Github <FaGithub />
                   </a>
@@ -241,7 +241,7 @@ function App() {
                     target="_blank"
                     rel="noreferrer"
                     href="https://maptytrack.vercel.app/"
-                    className="flex items-center gap-2 ring-1 ring-gray-900  rounded-md p-1"
+                    className="flex items-center gap-2 ring-1 dark:ring-emerald-50 ring-gray-900  rounded-sm p-1.5"
                   >
                     live <ImEye className="text-2xl" />
                   </a>
@@ -249,7 +249,7 @@ function App() {
                     target="_blank"
                     rel="noreferrer"
                     href="https://github.com/HamiHash/mapty"
-                    className="flex items-center gap-2 ring-1 ring-gray-900  rounded-md p-1"
+                    className="flex items-center gap-2 ring-1 dark:ring-emerald-50 ring-gray-900  rounded-sm p-1.5"
                   >
                     Github <FaGithub />
                   </a>
@@ -280,7 +280,7 @@ function App() {
                     target="_blank"
                     rel="noreferrer"
                     href="https://glittering-tapioca-16a89c.netlify.app/"
-                    className="flex items-center gap-2 ring-1 ring-gray-900  rounded-md p-1"
+                    className="flex items-center gap-2 ring-1 dark:ring-emerald-50 ring-gray-900  rounded-sm p-1.5"
                   >
                     live <ImEye className="text-2xl" />
                   </a>
@@ -288,7 +288,7 @@ function App() {
                     target="_blank"
                     rel="noreferrer"
                     href="https://github.com/HamiHash/bankist"
-                    className="flex items-center gap-2 ring-1 ring-gray-900  rounded-md p-1"
+                    className="flex items-center gap-2 ring-1 dark:ring-emerald-50 ring-gray-900  rounded-sm p-1.5"
                   >
                     Github <FaGithub />
                   </a>
@@ -319,7 +319,7 @@ function App() {
                     target="_blank"
                     rel="noreferrer"
                     href="https://pig-dicegame.vercel.app/"
-                    className="flex items-center gap-2 ring-1 ring-gray-900  rounded-md p-1"
+                    className="flex items-center gap-2 ring-1 dark:ring-emerald-50 ring-gray-900  rounded-sm p-1.5"
                   >
                     live <ImEye className="text-2xl" />
                   </a>
@@ -327,7 +327,7 @@ function App() {
                     target="_blank"
                     rel="noreferrer"
                     href="https://github.com/HamiHash/Pig-dice-game/tree/main"
-                    className="flex items-center gap-2 ring-1 ring-gray-900  rounded-md p-1"
+                    className="flex items-center gap-2 ring-1 dark:ring-emerald-50 ring-gray-900  rounded-sm p-1.5"
                   >
                     Github <FaGithub />
                   </a>
@@ -357,7 +357,7 @@ function App() {
                     target="_blank"
                     rel="noreferrer"
                     href="https://guess-my-number-smallgame.vercel.app/"
-                    className="flex items-center gap-2 ring-1 ring-gray-900  rounded-md p-1"
+                    className="flex items-center gap-2 ring-1 ring-gray-900  rounded-sm p-1.5 dark:ring-emerald-50"
                   >
                     live <ImEye className="text-2xl" />
                   </a>
@@ -365,7 +365,7 @@ function App() {
                     target="_blank"
                     rel="noreferrer"
                     href="https://github.com/HamiHash/Guess-My-Number-Game"
-                    className="flex items-center gap-2 ring-1 ring-gray-900  rounded-md p-1"
+                    className="flex items-center gap-2 ring-1 ring-gray-900 dark:ring-emerald-50 rounded-sm p-1.5"
                   >
                     Github <FaGithub />
                   </a>
