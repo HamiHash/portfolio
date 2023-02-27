@@ -80,18 +80,31 @@ function App() {
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600  dark:text-white ">
-            <a href="https://github.com/HamiHash">
+            <a
+              href="https://github.com/HamiHash"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaGithub className="hover:text-[#003892] dark:hover:text-[#643050] hover:-translate-y-2 transition-all duration-500" />
             </a>
-            <a href="https://twitter.com/hami_hash">
+            <a
+              href="https://twitter.com/hami_hash"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaTwitter className="hover:text-[#003892] dark:hover:text-[#643050] hover:-translate-y-2 transition-all duration-500" />
             </a>
-            <a href="https://www.linkedin.com/in/hamed-hashemi-101259260/">
+            <a
+              href="https://www.linkedin.com/in/hamed-hashemi-101259260/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaLinkedin className="hover:text-[#003892] dark:hover:text-[#643050] hover:-translate-y-2 transition-all duration-500" />
             </a>
           </div>
           <div className=" relative mx-auto  rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
             <img
+              alt="avatar"
               src={deved}
               fill
               className=" shadow-md shadow-slate-900 shadow-cyan-200"
@@ -123,16 +136,28 @@ function App() {
           </h2>
           <div className="flex py-10 mx-auto gap:5 md:gap-16 max-w-4xl">
             <div className=" flex-1">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+              <img
+                alt="html logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+              />
             </div>
             <div className="flex-1">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+              <img
+                alt="css logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+              />
             </div>
             <div className="flex-1">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
+              <img
+                alt="js logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+              />
             </div>
             <div className="flex-1">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+              <img
+                alt="react logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+              />
             </div>
           </div>
         </section>
@@ -148,13 +173,21 @@ function App() {
           </div>
           <div className="flex flex-col gap-10 py-10  ">
             <div className="flex flex-col md:flex-row gap-2 justify-start shadow-stone-900 dark:text-gray-50 shadow-2xl rounded-xl">
-              <img src={foodoo} className="rounded-l-lg  md:w-1/2 w-1/1" />
+              <img
+                src={foodoo}
+                className="rounded-l-lg  md:w-1/2 w-1/1"
+                alt="foodoo sample"
+              />
               <div className="flex flex-col justify-between">
                 <div className="p-3 text-xl leading-9">
                   {/* <h3 className="text-[#FE0039] text-5xl font-medium py-5 ">
                   Foodoo
                 </h3> */}
-                  <img className="w-2/5 p-3" src={foodooLogo} />
+                  <img
+                    className="w-2/5 p-3"
+                    alt="foodoo logo"
+                    src={foodooLogo}
+                  />
                   <p>This is a landing page for a fictional ai-company.</p>
                   <p>the website is build with React.</p>
                   <p>
@@ -165,14 +198,16 @@ function App() {
                 <div className="flex gap-3 justify-center p-5 text-1xl">
                   <a
                     target="_blank"
-                    href="#"
+                    rel="noreferrer"
+                    href="https://foodooapp.netlify.app/"
                     className="flex items-center gap-2 ring-1 ring-gray-900  rounded-md p-1"
                   >
                     live <ImEye className="text-2xl" />
                   </a>
                   <a
                     target="_blank"
-                    href="#"
+                    rel="noreferrer"
+                    href="https://github.com/HamiHash/foodoo"
                     className="flex items-center gap-2 ring-1 ring-gray-900  rounded-md p-1"
                   >
                     Github <FaGithub />
@@ -181,7 +216,11 @@ function App() {
               </div>
             </div>
             <div className="flex flex-col md:flex-row gap-2 justify-start shadow-stone-900 dark:text-gray-50 shadow-2xl rounded-xl">
-              <img src={mapty} className="rounded-l-lg  md:w-1/2 w-1/1" />
+              <img
+                src={mapty}
+                alt="mapty sample"
+                className="rounded-l-lg  md:w-1/2 w-1/1"
+              />
               <div className="flex flex-col justify-between">
                 <div className="p-3 text-xl leading-9">
                   <h3 className="text-gray-100 text-5xl font-medium py-5 ">
@@ -199,13 +238,17 @@ function App() {
                 </div>
                 <div className="flex gap-3 justify-center p-5 text-1xl">
                   <a
-                    href="#"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://maptytrack.vercel.app/"
                     className="flex items-center gap-2 ring-1 ring-gray-900  rounded-md p-1"
                   >
                     live <ImEye className="text-2xl" />
                   </a>
                   <a
-                    href="#"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/HamiHash/mapty"
                     className="flex items-center gap-2 ring-1 ring-gray-900  rounded-md p-1"
                   >
                     Github <FaGithub />
@@ -215,7 +258,11 @@ function App() {
             </div>
 
             <div className="flex flex-col md:flex-row gap-2 justify-start shadow-stone-900 dark:text-gray-50 shadow-2xl rounded-xl">
-              <img src={bankist} className="rounded-l-lg  md:w-1/2 w-1/1" />
+              <img
+                src={bankist}
+                alt="bankist sample"
+                className="rounded-l-lg  md:w-1/2 w-1/1"
+              />
               <div className="flex flex-col justify-between">
                 <div className="p-3 text-xl leading-9">
                   <h3 className="text-5xl font-medium py-5 ">Bankist</h3>
@@ -231,6 +278,7 @@ function App() {
                 <div className="flex gap-3 justify-center p-5 text-1xl">
                   <a
                     target="_blank"
+                    rel="noreferrer"
                     href="https://glittering-tapioca-16a89c.netlify.app/"
                     className="flex items-center gap-2 ring-1 ring-gray-900  rounded-md p-1"
                   >
@@ -238,6 +286,7 @@ function App() {
                   </a>
                   <a
                     target="_blank"
+                    rel="noreferrer"
                     href="https://github.com/HamiHash/bankist"
                     className="flex items-center gap-2 ring-1 ring-gray-900  rounded-md p-1"
                   >
@@ -249,8 +298,9 @@ function App() {
             <div className="flex flex-col md:flex-row gap-2 justify-start shadow-stone-900 dark:text-gray-50 shadow-2xl rounded-xl">
               <img
                 src={pig}
+                alt="pig game sample"
                 target="_blank"
-                alt="pig game website"
+                rel="noreferrer"
                 className="rounded-l-lg  md:w-1/2 w-1/1"
               />
               <div className="flex flex-col justify-between">
@@ -267,6 +317,7 @@ function App() {
                 <div className="flex gap-3 justify-center p-5 text-1xl">
                   <a
                     target="_blank"
+                    rel="noreferrer"
                     href="https://pig-dicegame.vercel.app/"
                     className="flex items-center gap-2 ring-1 ring-gray-900  rounded-md p-1"
                   >
@@ -274,6 +325,7 @@ function App() {
                   </a>
                   <a
                     target="_blank"
+                    rel="noreferrer"
                     href="https://github.com/HamiHash/Pig-dice-game/tree/main"
                     className="flex items-center gap-2 ring-1 ring-gray-900  rounded-md p-1"
                   >
@@ -285,7 +337,7 @@ function App() {
             <div className="flex flex-col md:flex-row gap-2 justify-start shadow-stone-900 dark:text-gray-50 shadow-2xl rounded-xl">
               <img
                 src={guess}
-                alt="foodoo website"
+                alt="guess my number wesamplebsite"
                 className="rounded-l-lg  md:w-1/2 w-1/1"
               />
               <div className="flex flex-col justify-between">
@@ -302,13 +354,17 @@ function App() {
                 </div>
                 <div className="flex gap-3 justify-center p-5 text-1xl">
                   <a
-                    href="#"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://guess-my-number-smallgame.vercel.app/"
                     className="flex items-center gap-2 ring-1 ring-gray-900  rounded-md p-1"
                   >
                     live <ImEye className="text-2xl" />
                   </a>
                   <a
-                    href="#"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/HamiHash/Guess-My-Number-Game"
                     className="flex items-center gap-2 ring-1 ring-gray-900  rounded-md p-1"
                   >
                     Github <FaGithub />
@@ -327,6 +383,7 @@ function App() {
             <div className="flex flex-row md:flex-col justify-around mt-3 p-5 text-gray-800 dark:text-gray-50 md:f-1">
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://wa.me/+989101163280"
                 className="flex flex-col items-center gap-1 p-7  shadow-2xl  ring-1 ring-white rounded-2xl w-1/3 md:p-15  md:w-5/6 "
               >
@@ -336,6 +393,7 @@ function App() {
               </a>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="mailto:hami.hash@icloud.com"
                 className="truncate flex flex-col items-center gap-1 p-7  shadow-2xl ring-1 ring-white rounded-2xl w-1/3 md:p-15  md:w-5/6"
               >
