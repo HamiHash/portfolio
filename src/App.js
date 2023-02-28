@@ -14,6 +14,7 @@ import mapty from "./Img/mapty.png";
 import bankist from "./Img/bankist.png";
 import pig from "./Img/pig.png";
 import foodooLogo from "./Img/foodoo-logo.png";
+import movieland from "./Img/Movieland.png";
 
 function App() {
   const form = useRef();
@@ -326,6 +327,42 @@ function App() {
                     rel="noreferrer"
                     href="https://github.com/HamiHash/Pig-dice-game/tree/main"
                     className="flex items-center gap-2 ring-1 dark:ring-emerald-50 ring-gray-900  rounded-sm p-1.5"
+                  >
+                    Github <FaGithub />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col md:flex-row gap-2 justify-start shadow-stone-900 dark:text-gray-50 shadow-2xl rounded-xl">
+              <img
+                src={movieland}
+                alt="Movieland sample"
+                className="rounded-l-lg  md:w-1/2 w-1/1"
+              />
+              <div className="flex flex-col justify-between">
+                <div className="p-3 text-xl leading-9">
+                  <h3 className="text-5xl font-medium py-5 ">Movieland</h3>
+                  {/* <img className="w-2/5 p-3" src={foodooLogo} /> */}
+                  <p>
+                    Easily search for any movie or series that you want by
+                    entering the name and it will show the results using an API.
+                  </p>
+                  <p>Build with React.</p>
+                </div>
+                <div className="flex gap-3 justify-center p-5 text-1xl">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://movielandsearchbar.netlify.app/"
+                    className="flex items-center gap-2 ring-1 ring-gray-900  rounded-sm p-1.5 dark:ring-emerald-50"
+                  >
+                    live <ImEye className="text-2xl" />
+                  </a>
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/HamiHash/movieland"
+                    className="flex items-center gap-2 ring-1 ring-gray-900 dark:ring-emerald-50 rounded-sm p-1.5"
                   >
                     Github <FaGithub />
                   </a>
