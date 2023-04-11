@@ -278,8 +278,10 @@ function App() {
                   <div className="flex gap-5 ">
                     <h3 className=" text-5xl font-medium py-5 ">GPT-3</h3>
                   </div>
-                  <p>A simple Landing page built with React.</p>
-                  <p>This was converted from a Figma design.</p>
+                  <p>
+                    Fully responsive Landing page built with React. This was
+                    converted from a Figma design.
+                  </p>
                 </div>
                 <div className="flex gap-3 justify-center p-5 text-1xl">
                   <a
