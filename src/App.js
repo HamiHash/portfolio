@@ -17,6 +17,7 @@ import foodooLogo from "./Img/foodoo-logo.png";
 import movieland from "./Img/Movieland.png";
 import beatslogo from "./Img/beatslogo.ico";
 import beats from "./Img/beats.png";
+import gpt3 from "./Img/gpt-3.jpg";
 
 function App() {
   const form = useRef();
@@ -227,7 +228,11 @@ function App() {
               <div className="flex flex-col justify-between">
                 <div className="p-3 text-xl leading-9">
                   <div className="flex gap-5 ">
-                    <img src={beatslogo} className="h-16 w-16 mt-3" />
+                    <img
+                      src={beatslogo}
+                      alt="beats logo"
+                      className="h-16 w-16 mt-3"
+                    />
                     <h3 className=" text-5xl font-medium py-5 ">Beats</h3>
                   </div>
                   <p>
@@ -255,6 +260,40 @@ function App() {
                     target="_blank"
                     rel="noreferrer"
                     href="https://github.com/HamiHash/Beats-store"
+                    className="flex items-center gap-2 ring-1 dark:ring-emerald-50 ring-gray-900  rounded-sm p-1.5"
+                  >
+                    Github <FaGithub />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col md:flex-row gap-2 justify-start shadow-stone-900 dark:text-gray-50 shadow-2xl rounded-xl">
+              <img
+                src={gpt3}
+                className="rounded-l-lg  md:w-1/2 w-1/1"
+                alt="GPT-3 sample"
+              />
+              <div className="flex flex-col justify-between">
+                <div className="p-3 text-xl leading-9">
+                  <div className="flex gap-5 ">
+                    <h3 className=" text-5xl font-medium py-5 ">GPT-3</h3>
+                  </div>
+                  <p>A simple Landing page built with React.</p>
+                  <p>This was converted from a Figma design.</p>
+                </div>
+                <div className="flex gap-3 justify-center p-5 text-1xl">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://gpt-3landingpage.vercel.app/"
+                    className="flex items-center gap-2 ring-1 dark:ring-emerald-50 ring-gray-900  rounded-sm p-1.5"
+                  >
+                    live <ImEye className="text-2xl" />
+                  </a>
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/HamiHash/GPT-3"
                     className="flex items-center gap-2 ring-1 dark:ring-emerald-50 ring-gray-900  rounded-sm p-1.5"
                   >
                     Github <FaGithub />
