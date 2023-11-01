@@ -95,13 +95,13 @@ function App() {
               >
                 <FaTwitter className="hover:text-[#003892] dark:hover:text-[#643050] hover:-translate-y-2 transition-all duration-500" />
               </a>
-              <a
+              {/* <a
                 href="https://www.linkedin.com/in/hamed-hashemi-101259260/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <FaLinkedin className="hover:text-[#003892] dark:hover:text-[#643050] hover:-translate-y-2 transition-all duration-500" />
-              </a>
+              </a> */}
             </div>
           </div>
         </section>
