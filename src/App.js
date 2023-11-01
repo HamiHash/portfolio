@@ -7,7 +7,6 @@ import { SiWhatsapp } from "react-icons/si";
 import { IoMail, IoRocket } from "react-icons/io5";
 import { ImEye } from "react-icons/im";
 import { BsFillArrowUpSquareFill } from "react-icons/bs";
-import deved from "./Img/dev-ed-wave.png";
 import foodoo from "./Img/foodoo.webp";
 import guess from "./Img/guess.png";
 import mapty from "./Img/mapty.png";
@@ -39,9 +38,9 @@ function App() {
   return (
     <div className={darkMode ? "dark" : ""}>
       <main className="transition-all duration-700 bg-light-pattern bg-cover bg-fixed px-10 md:px-20 lg:px-40 xl:px-60 dark:bg-dark-pattern ">
-        <section id="top" className=" min-h-screen">
-          <nav className="py-10 mb-12 flex justify-between">
-            <h1 className="text-2xl font-burtons">developed by</h1>
+        <section id="top" className=" min-h-fit">
+          <nav className="pt-10 pb-5 flex justify-between">
+            <h1 className="text-2xl font-burtons">Welcome to my Portfolio</h1>
             <ul className="flex items-center">
               <li>
                 {darkMode ? (
@@ -71,56 +70,49 @@ function App() {
               </li>
             </ul>
           </nav>
-          <div className="text-center p-10 ">
-            <h2 className=" text-5xl py-2 text-[#003892] dark:text-teal-200 font-medium md:text-6xl ">
-              Hamed Hashemi
-            </h2>
-            <h3 className="text-2xl py-2 md:text-3xl dark:text-gray-50">
-              Passionate iOS and Front-End Developer.
-            </h3>
+
+          <div className="py-36">
+            <div className="text-center p-10 ">
+              <h2 className=" text-5xl py-10 text-[#003892] dark:text-teal-200 font-medium md:text-6xl">
+                Hamed Hashemi
+              </h2>
+              <h3 className="text-2xl py-8 md:text-3xl dark:text-gray-50">
+                Passionate iOS and Front-End Developer.
+              </h3>
+            </div>
+            <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600  dark:text-white ">
+              <a
+                href="https://github.com/HamiHash"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaGithub className="hover:text-[#003892] dark:hover:text-[#643050] hover:-translate-y-2 transition-all duration-500" />
+              </a>
+              <a
+                href="https://twitter.com/hami_hash"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaTwitter className="hover:text-[#003892] dark:hover:text-[#643050] hover:-translate-y-2 transition-all duration-500" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/hamed-hashemi-101259260/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaLinkedin className="hover:text-[#003892] dark:hover:text-[#643050] hover:-translate-y-2 transition-all duration-500" />
+              </a>
+            </div>
           </div>
-          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600  dark:text-white ">
-            <a
-              href="https://github.com/HamiHash"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaGithub className="hover:text-[#003892] dark:hover:text-[#643050] hover:-translate-y-2 transition-all duration-500" />
-            </a>
-            <a
-              href="https://twitter.com/hami_hash"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaTwitter className="hover:text-[#003892] dark:hover:text-[#643050] hover:-translate-y-2 transition-all duration-500" />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/hamed-hashemi-101259260/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaLinkedin className="hover:text-[#003892] dark:hover:text-[#643050] hover:-translate-y-2 transition-all duration-500" />
-            </a>
-          </div>
-          {/* <div className=" relative mx-auto  rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
-            <img
-              alt="avatar"
-              src={deved}
-              fill
-              className=" shadow-md shadow-slate-900 shadow-cyan-200"
-              objectFit="cover"
-            />
-          </div> */}
         </section>
 
         <section>
           <div>
-            <h2 className="text-gray-800 dark:text-gray-50 text-3xl py-1 font-medium">
+            <h2 className="text-gray-800 dark:text-gray-50 text-3xl py-10 font-medium">
               About me
             </h2>
-            <p className="text-md py-5 leading-8 text-gray-800 font-light dark:text-gray-200">
+            <p className="text-lg font-normal py-5 leading-8 text-gray-800 dark:text-gray-200">
               Hi! I'm Hamed, a 22-year-old tech enthusiast from Tehran.
-              <br />
               <br />
               I embarked on my journey in software development by mastering the
               trifecta of web technologies: HTML, CSS, and JavaScript, with the
@@ -128,12 +120,10 @@ function App() {
               exciting journey, I've had the privilege to work on a multitude of
               projects, a few of which are showcased below.
               <br />
-              <br />
               Simultaneously, my curiosity led me to the captivating realm of
               iOS development, where I jumped right into the fun of creating
               mobile apps. I honed my skills in Swift, resulting in the creation
               of some amazing applications.
-              <br />
               <br />
               I'm naturally curious and perpetually working to improve my skills
               and expand my toolkit-knowledge on the field.
@@ -185,7 +175,7 @@ function App() {
             <div className="flex-1">
               <img
                 alt="git logo"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
               />
             </div>
           </div>
@@ -194,9 +184,9 @@ function App() {
         <section>
           <div>
             <h3 className="text-gray-800 dark:text-gray-50 text-3xl py-1 font-medium">
-              Portfolio
+              Projects
             </h3>
-            <p className="text-md py-5 leading-8 text-gray-800 font-light dark:text-gray-200">
+            <p className="text-lg font-normal py-5 leading-8 text-gray-800 dark:text-gray-200">
               These are some of the projects that I've worked on
             </p>
           </div>
