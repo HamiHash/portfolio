@@ -102,7 +102,7 @@ function App() {
               <FaLinkedin className="hover:text-[#003892] dark:hover:text-[#643050] hover:-translate-y-2 transition-all duration-500" />
             </a>
           </div>
-          <div className=" relative mx-auto  rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
+          {/* <div className=" relative mx-auto  rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
             <img
               alt="avatar"
               src={deved}
@@ -110,7 +110,7 @@ function App() {
               className=" shadow-md shadow-slate-900 shadow-cyan-200"
               objectFit="cover"
             />
-          </div>
+          </div> */}
         </section>
 
         <section>
@@ -119,21 +119,24 @@ function App() {
               About me
             </h2>
             <p className="text-md py-5 leading-8 text-gray-800 font-light dark:text-gray-200">
-              Hi! I'm Hamed, a 22-year-old tech enthusiast from Tehran. I
-              embarked on my journey in software development by mastering the
+              Hi! I'm Hamed, a 22-year-old tech enthusiast from Tehran.
+              <br />
+              <br />
+              I embarked on my journey in software development by mastering the
               trifecta of web technologies: HTML, CSS, and JavaScript, with the
               goal of becoming a skilled Front-End developer. Through this
               exciting journey, I've had the privilege to work on a multitude of
               projects, a few of which are showcased below.
               <br />
+              <br />
               Simultaneously, my curiosity led me to the captivating realm of
               iOS development, where I jumped right into the fun of creating
               mobile apps. I honed my skills in Swift, resulting in the creation
-              of some truly awesome applications.
+              of some amazing applications.
+              <br />
               <br />
               I'm naturally curious and perpetually working to improve my skills
-              and expand my toolkit-knowledge about the field.
-              <br />
+              and expand my toolkit-knowledge on the field.
             </p>
           </div>
         </section>
@@ -143,6 +146,18 @@ function App() {
             I have experience with
           </h2>
           <div className="flex py-10 mx-auto gap:5 md:gap-16 max-w-4xl">
+            <div className="flex-1">
+              <img
+                alt="swift logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg"
+              />
+            </div>
+            <div className="flex-1">
+              <img
+                alt="xcode logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xcode/xcode-original.svg"
+              />
+            </div>
             <div className=" flex-1">
               <img
                 alt="html logo"
@@ -165,6 +180,12 @@ function App() {
               <img
                 alt="react logo"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+              />
+            </div>
+            <div className="flex-1">
+              <img
+                alt="git logo"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"
               />
             </div>
           </div>
