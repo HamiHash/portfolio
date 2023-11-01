@@ -76,12 +76,8 @@ function App() {
               Hamed Hashemi
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl dark:text-gray-50">
-              Junior front-end developer
+              Passionate iOS and Front-End Developer.
             </h3>
-            <p className="text-md py-5 leading-8 dark:text-gray-100 text-gray-800 md:text-xl max-w-xl mx-auto">
-              Motivated to grow and a fast learner. join me below and lets get
-              cracking!
-            </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600  dark:text-white ">
             <a
@@ -123,9 +119,17 @@ function App() {
               About me
             </h2>
             <p className="text-md py-5 leading-8 text-gray-800 font-light dark:text-gray-200">
-              Greetings, my name is Hamed I'm 22 from Tehran. a tech enthusiast.
-              looking for an internship to start my journey as a front-end
-              developer.
+              Hi! I'm Hamed, a 22-year-old tech enthusiast from Tehran. I
+              embarked on my journey in software development by mastering the
+              trifecta of web technologies: HTML, CSS, and JavaScript, with the
+              goal of becoming a skilled Front-End developer. Through this
+              exciting journey, I've had the privilege to work on a multitude of
+              projects, a few of which are showcased below.
+              <br />
+              Simultaneously, my curiosity led me to the captivating realm of
+              iOS development, where I jumped right into the fun of creating
+              mobile apps. I honed my skills in Swift, resulting in the creation
+              of some truly awesome applications.
               <br />
               I'm naturally curious and perpetually working to improve my skills
               and expand my toolkit-knowledge about the field.
