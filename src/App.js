@@ -7,6 +7,8 @@ import { SiWhatsapp } from "react-icons/si";
 import { IoMail, IoRocket } from "react-icons/io5";
 import { ImEye } from "react-icons/im";
 import { BsFillArrowUpSquareFill } from "react-icons/bs";
+import instagram1 from "./Img/instagram1.png";
+import Scrumdinger from "./Img/Scrumdinger.png";
 import foodoo from "./Img/foodoo.webp";
 import guess from "./Img/guess.png";
 import mapty from "./Img/mapty.png";
@@ -114,7 +116,7 @@ function App() {
             <p className="text-lg font-normal py-5 leading-8 text-gray-800 dark:text-gray-200">
               Hi! I'm Hamed, a 22-year-old tech enthusiast from Tehran.
               <br />
-              I embarked on my journey in software development by mastering the
+              I started my journey in software development by mastering the
               trifecta of web technologies: HTML, CSS, and JavaScript, with the
               goal of becoming a skilled Front-End developer. Through this
               exciting journey, I've had the privilege to work on a multitude of
@@ -135,7 +137,7 @@ function App() {
           <h2 className="text-gray-800 dark:text-gray-50 text-3xl py-2 font-medium">
             I have experience with
           </h2>
-          <div className="flex py-10 mx-auto gap:5 md:gap-16 max-w-4xl">
+          <div className="flex py-10 mx-auto gap:5 md:gap-16 max-w-8xl">
             <div className="flex-1">
               <img
                 alt="swift logo"
@@ -190,6 +192,60 @@ function App() {
               These are some of the projects that I've worked on
             </p>
           </div>
+
+          {/* /// Beats By Dre  /*/}
+
+          <div className="flex flex-col md:flex-row gap-2 justify-start shadow-stone-900 dark:text-gray-50 shadow-2xl rounded-xl">
+            <img
+              src={beats}
+              className="rounded-l-lg  md:w-1/2 w-1/1"
+              alt="beats sample"
+            />
+            <div className="flex flex-col justify-between">
+              <div className="p-3 text-xl leading-9">
+                <div className="flex gap-5 ">
+                  <img
+                    src={beatslogo}
+                    alt="beats logo"
+                    className="h-16 w-16 mt-3"
+                  />
+                  <h3 className=" text-5xl font-medium py-5 ">Beats</h3>
+                </div>
+                <p>
+                  "Beats by Dre" Headphones store. You can add single or
+                  multiple products to your card and pay, after successful
+                  payment, you will be directed to a success page.
+                </p>
+                <p>
+                  Notice when paying with stripe you just have to enter 4242
+                  4242 4242 4242 for card number, and any number for CVC and
+                  expiry date. Also use VPN if you are in Iran.
+                </p>
+                <p>Build with Next.js, Sanity, Stripe</p>
+              </div>
+              <div className="flex gap-3 justify-center p-5 text-1xl">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://beats-by-dre.vercel.app/"
+                  className="flex items-center gap-2 ring-1 dark:ring-emerald-50 ring-gray-900  rounded-sm p-1.5"
+                >
+                  live <ImEye className="text-2xl" />
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/HamiHash/Beats-store"
+                  className="flex items-center gap-2 ring-1 dark:ring-emerald-50 ring-gray-900  rounded-sm p-1.5"
+                >
+                  Github <FaGithub />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* /// Foodoo  / */}
+
           <div className="flex flex-col gap-10 py-10  ">
             <div className="flex flex-col md:flex-row gap-2 justify-start shadow-stone-900 dark:text-gray-50 shadow-2xl rounded-xl">
               <img
@@ -234,47 +290,35 @@ function App() {
                 </div>
               </div>
             </div>
+
+            {/* /// Instagram */}
+
             <div className="flex flex-col md:flex-row gap-2 justify-start shadow-stone-900 dark:text-gray-50 shadow-2xl rounded-xl">
               <img
-                src={beats}
-                className="rounded-l-lg  md:w-1/2 w-1/1"
-                alt="beats sample"
+                src={instagram1}
+                className="rounded-l-lg md:w-1/2 w-1/1"
+                alt="foodoo sample"
               />
+
               <div className="flex flex-col justify-between">
                 <div className="p-3 text-xl leading-9">
-                  <div className="flex gap-5 ">
-                    <img
-                      src={beatslogo}
-                      alt="beats logo"
-                      className="h-16 w-16 mt-3"
-                    />
-                    <h3 className=" text-5xl font-medium py-5 ">Beats</h3>
-                  </div>
+                  <h3 className=" text-5xl font-medium py-5 ">
+                    Instagram Clone
+                  </h3>
                   <p>
-                    "Beats by Dre" Headphones store, in which one can add single
-                    or multiple products to their card and pay, after successful
-                    payment, they will be directed to a success page.
+                    This is an instagram clone build with SwiftUI and Firebase.
                   </p>
                   <p>
-                    Note: When paying with stripe you just have to enter 4242
-                    4242 4242 4242 for card number, and any number for CVC and
-                    also expiry date. Also use VPN if you are in Iran.
+                    Sign up with Email, create profile, update your info and
+                    upload posts, you can also see other people posts in the
+                    feed.
                   </p>
-                  <p>Build with Next.js, Sanity, Stripe</p>
                 </div>
                 <div className="flex gap-3 justify-center p-5 text-1xl">
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://beats-by-dre.vercel.app/"
-                    className="flex items-center gap-2 ring-1 dark:ring-emerald-50 ring-gray-900  rounded-sm p-1.5"
-                  >
-                    live <ImEye className="text-2xl" />
-                  </a>
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://github.com/HamiHash/Beats-store"
+                    href="https://github.com/HamiHash/Instagram"
                     className="flex items-center gap-2 ring-1 dark:ring-emerald-50 ring-gray-900  rounded-sm p-1.5"
                   >
                     Github <FaGithub />
@@ -282,6 +326,9 @@ function App() {
                 </div>
               </div>
             </div>
+
+            {/* /// GPT-3  */}
+
             <div className="flex flex-col md:flex-row gap-2 justify-start shadow-stone-900 dark:text-gray-50 shadow-2xl rounded-xl">
               <img
                 src={gpt3}
@@ -318,6 +365,45 @@ function App() {
                 </div>
               </div>
             </div>
+
+            {/* Scrumdinger */}
+
+            <div className="flex flex-col md:flex-row gap-2 justify-start shadow-stone-900 dark:text-gray-50 shadow-2xl rounded-xl">
+              <img
+                src={Scrumdinger}
+                className="rounded-l-lg md:w-1/2 w-1/1 bg-black"
+                alt="foodoo sample"
+              />
+
+              <div className="flex flex-col justify-between">
+                <div className="p-3 text-xl leading-9">
+                  <h3 className=" text-5xl font-medium py-5 ">Scrumdinger</h3>
+                  <p>
+                    This is the apple's own learning project for SwiftUI. A
+                    meeting app which make it easy for people to manage calls
+                    and meetings.
+                  </p>
+                  <p>
+                    Insert the title, attendees, and length of meeting, and
+                    Scrumdinger will automatically divide the total time between
+                    all attendees and set a timer for each attendee.
+                  </p>
+                </div>
+                <div className="flex gap-3 justify-center p-5 text-1xl">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/HamiHash/Scrumdinger#scrumdinger"
+                    className="flex items-center gap-2 ring-1 dark:ring-emerald-50 ring-gray-900  rounded-sm p-1.5"
+                  >
+                    Github <FaGithub />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Mapty */}
+
             <div className="flex flex-col md:flex-row gap-2 justify-start shadow-stone-900 dark:text-gray-50 shadow-2xl rounded-xl">
               <img
                 src={mapty}
